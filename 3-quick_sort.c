@@ -6,6 +6,7 @@
  * @array: array
  * @idx1: index 1
  * @idx2: index 2
+ * @size: size
  */
 void swap(int *array, int idx1, int idx2, size_t size)
 {
@@ -23,6 +24,7 @@ void swap(int *array, int idx1, int idx2, size_t size)
  * @array: array
  * @low: low
  * @high: high
+ * @size: size
  *
  * Return: index
  */
