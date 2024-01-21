@@ -9,7 +9,7 @@
  */
 void swap(int *array, int idx1, int idx2, size_t size)
 {
-	if (idx1 == idx2)
+	if (idx1 == idx2 || array[idx1] == array[idx2])
 		return;
 
 	array[idx1] += array[idx2];
